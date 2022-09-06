@@ -10,11 +10,11 @@ interface StyledButton {
 }
 
 const ButtonWrapper = styled.button<StyledButton>`
-  padding: 0 8px;
+  padding: 4px 8px;
   color: #fff;
   background-color: ${({ color }) => (color === "primary" ? "#32c1ff" : "#f1f2f3")};
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
 `;
 
 export interface ButtonProps {
